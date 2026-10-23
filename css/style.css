@@ -514,6 +514,7 @@ body::before {
   background: rgba(8,5,3,.94); display: grid; place-items: center; padding: 60px 70px;
   opacity: 0; transition: opacity .25s;
 }
+.lightbox[hidden] { display: none !important; }
 .lightbox.is-open { opacity: 1; }
 .lightbox img { max-height: 86vh; max-width: 100%; border-radius: 10px; box-shadow: var(--shadow); }
 .lightbox__close, .lightbox__nav {
